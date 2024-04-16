@@ -3,7 +3,7 @@
 # Set up fixed values
 BRANCH_NAME="one"
 REMOTE="origin"
-WORKING_DIRECTORY="commerce"
+WORKING_DIRECTORY="commerce/src"
 
 # Navigate to the repository directory
 cd "$WORKING_DIRECTORY"

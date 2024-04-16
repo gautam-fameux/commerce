@@ -26,13 +26,24 @@ else
     echo "Branch $BRANCH_NAME does not exist. Creating a new one."
 fi
 
-# Create a new branch from master and switch to it
-git checkout master
-git pull $REMOTE master  # Ensure master is up to date
+# Create a new branch from main and switch to it
+git checkout main
+git pull $REMOTE main  # Ensure main is up to date
 git checkout -b $BRANCH_NAME
 
-# Add all changes and commit
+# Add all changes
 git add .
+
+# Confirm changes before committing
+echo "Changes staged for commit:"
+git status
+read -p "Do you want to proceed with committing these changes? (y/n): " confirm
+if [ "$confirm" != "y" ]; then
+    echo "Commit canceled."
+    exit 1
+fi
+
+# Commit the changes
 git commit -m "Reset and update branch $BRANCH_NAME"
 
 # Push the new branch to the remote repository

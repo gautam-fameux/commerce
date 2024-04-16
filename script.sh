@@ -3,14 +3,14 @@
 # Set up fixed values
 BRANCH_NAME="one"
 REMOTE="origin"
-WORKING_DIRECTORY="commerce/src"
+REPO_PATH="/f/e-commerce fronted/commerce"  # Adjusted absolute path
 
 # Navigate to the repository directory
-cd "$WORKING_DIRECTORY"
+cd "$REPO_PATH"
 
 # Ensure we're in the right directory and the repository exists
 if [ ! -d ".git" ]; then
-    echo "Error: No git repository found in $WORKING_DIRECTORY"
+    echo "Error: No git repository found in $REPO_PATH"
     exit 1
 fi
 

@@ -1,0 +1,193 @@
+:where(.css-dev-only-do-not-override-1kuana8).ant-menu-light.ant-menu-submenu-popup>.ant-menu,
+:where(.css-dev-only-do-not-override-1kuana8).ant-menu-light>.ant-menu.ant-menu-submenu-popup>.ant-menu {
+    background-color: #ffffff;
+    text-align: center;
+    width: 300px;
+}
+
+.menuTitle {
+    font-family: 'Integral', sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    color: #000000;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-left: 10px;
+}
+
+@media (max-width: 381px) {
+
+    :where(.css-dev-only-do-not-override-1kuana8).ant-menu-light.ant-menu-submenu-popup>.ant-menu,
+    :where(.css-dev-only-do-not-override-1kuana8).ant-menu-light>.ant-menu.ant-menu-submenu-popup>.ant-menu {
+        width: 120px;
+        /* Even smaller on phones */
+        font-size: 7px;
+        margin-right: -46px;
+    }
+}
+
+
+@media (max-width: 362px) and (min-width: 320px) {
+    .menuTitle {
+        margin-left: -90px; /* Custom margin for screens between 362px and 320px */
+        /* Adjust font-size or other properties here if needed */
+    }
+}
+
+
+@media (max-width: 362px){
+    :where(.css-dev-only-do-not-override-1kuana8).ant-layout-header {
+        height: 64px;
+        padding: 0px 28px;
+        color: rgba(0, 0, 0, 0.88);
+        line-height: 64px;
+        background: #001529;
+    }
+
+    :where(.css-dev-only-do-not-override-1kuana8).ant-menu-light.ant-menu-submenu-popup>.ant-menu,
+    :where(.css-dev-only-do-not-override-1kuana8).ant-menu-light>.ant-menu.ant-menu-submenu-popup>.ant-menu {
+        width: 240px;
+        /* Even smaller on phones */
+        font-size: 7px;
+        margin-left:60px;
+    }
+}
+
+@media (max-width: 425px) {
+
+    .menuTitle {
+        margin-left: 50px;
+    }
+
+.custom-menu .menu-title {
+    order: 1;
+    /* Positions the title after menu items */
+}
+
+.custom-menu .icon1,
+.custom-menu .icon2 {
+    order: 2;
+    /* Positions icons last */
+}
+
+.custom-menu .anticon svg {
+    /* ... */
+    display: inline-block;
+    margin-left: -247px;
+    color: black;
+}
+
+
+:where(.css-dev-only-do-not-override-1kuana8).ant-menu-light.ant-menu-horizontal >.ant-menu-item-selected, :where(.css-dev-only-do-not-override-1kuana8).ant-menu-light>.ant-menu.ant-menu-horizontal >.ant-menu-item-selected, :where(.css-dev-only-do-not-override-1kuana8).ant-menu-light.ant-menu-horizontal >.ant-menu-submenu-selected, :where(.css-dev-only-do-not-override-1kuana8).ant-menu-light>.ant-menu.ant-menu-horizontal >.ant-menu-submenu-selected
+{
+    color:#000000;
+}
+
+:where(.css-dev-only-do-not-override-1kuana8).ant-menu-light.ant-menu-submenu-popup>.ant-menu,
+:where(.css-dev-only-do-not-override-1kuana8).ant-menu-light>.ant-menu.ant-menu-submenu-popup>.ant-menu {
+    width: 250px;
+    /* Even smaller on phones */
+    font-size: 7px;
+    /* margin-left: -275px;  */
+    margin-right: 135px;
+}
+
+:where(.css-dev-only-do-not-override-1kuana8).ant-menu-light.ant-menu-horizontal>.ant-menu-item-selected::after,
+:where(.css-dev-only-do-not-override-1kuana8).ant-menu-light>.ant-menu.ant-menu-horizontal>.ant-menu-item-selected::after,
+:where(.css-dev-only-do-not-override-1kuana8).ant-menu-light.ant-menu-horizontal>.ant-menu-submenu-selected::after,
+:where(.css-dev-only-do-not-override-1kuana8).ant-menu-light>.ant-menu.ant-menu-horizontal>.ant-menu-submenu-selected::after {
+    border-bottom-width: 0px;
+    border-bottom-color: 'red';
+}
+
+:where(.css-dev-only-do-not-override-1kuana8).ant-menu-light.ant-menu-horizontal>.ant-menu-item:hover::after,
+:where(.css-dev-only-do-not-override-1kuana8).ant-menu-light>.ant-menu.ant-menu-horizontal>.ant-menu-item:hover::after,
+:where(.css-dev-only-do-not-override-1kuana8).ant-menu-light.ant-menu-horizontal>.ant-menu-submenu:hover::after,
+:where(.css-dev-only-do-not-override-1kuana8).ant-menu-light>.ant-menu.ant-menu-horizontal>.ant-menu-submenu:hover::after,
+:where(.css-dev-only-do-not-override-1kuana8).ant-menu-light.ant-menu-horizontal>.ant-menu-item-active::after,
+:where(.css-dev-only-do-not-override-1kuana8).ant-menu-light>.ant-menu.ant-menu-horizontal>.ant-menu-item-active::after,
+:where(.css-dev-only-do-not-override-1kuana8).ant-menu-light.ant-menu-horizontal>.ant-menu-submenu-active::after,
+:where(.css-dev-only-do-not-override-1kuana8).ant-menu-light>.ant-menu.ant-menu-horizontal>.ant-menu-submenu-active::after,
+:where(.css-dev-only-do-not-override-1kuana8).ant-menu-light.ant-menu-horizontal>.ant-menu-item-open::after,
+:where(.css-dev-only-do-not-override-1kuana8).ant-menu-light>.ant-menu.ant-menu-horizontal>.ant-menu-item-open::after,
+:where(.css-dev-only-do-not-override-1kuana8).ant-menu-light.ant-menu-horizontal>.ant-menu-submenu-open::after,
+:where(.css-dev-only-do-not-override-1kuana8).ant-menu-light>.ant-menu.ant-menu-horizontal>.ant-menu-submenu-open::after {
+    border-bottom-width: 2px;
+    margin-left: 100px;
+    border-bottom-color: 'red';
+}
+
+element.style {
+    margin-left: -300px;
+}
+}
+
+@media (max-width: 426px) {
+
+    :where(.css-dev-only-do-not-override-1kuana8).ant-menu-light.ant-menu-submenu-popup>.ant-menu,
+    :where(.css-dev-only-do-not-override-1kuana8).ant-menu-light>.ant-menu.ant-menu-submenu-popup>.ant-menu {
+        width: 240px;
+        /* Even smaller on phones */
+        font-size: 7px;
+        /* margin-left: 70px; */
+        margin-left: -70px;
+    }
+}
+
+@media (max-width: 471px) {
+
+    :where(.css-dev-only-do-not-override-1kuana8).ant-menu-light.ant-menu-submenu-popup>.ant-menu,
+    :where(.css-dev-only-do-not-override-1kuana8).ant-menu-light>.ant-menu.ant-menu-submenu-popup>.ant-menu {
+        width: 240px;
+        /* Even smaller on phones */
+        font-size: 7px;
+        margin-left: 70px;
+    }
+}
+
+
+
+@media (max-width: 592px) {
+
+    :where(.css-dev-only-do-not-override-1kuana8).ant-menu-light.ant-menu-submenu-popup>.ant-menu,
+    :where(.css-dev-only-do-not-override-1kuana8).ant-menu-light>.ant-menu.ant-menu-submenu-popup>.ant-menu {
+        width: 240px;
+        /* Even smaller on phones */
+        font-size: 7px;
+        margin-left: 70px;
+    }
+}
+
+@media (max-width: 675px) {
+
+    :where(.css-dev-only-do-not-override-1kuana8).ant-menu-light.ant-menu-submenu-popup>.ant-menu,
+    :where(.css-dev-only-do-not-override-1kuana8).ant-menu-light>.ant-menu.ant-menu-submenu-popup>.ant-menu {
+        width: 210px;
+        /* Even smaller on phones */
+        font-size: 7px;
+        margin-left: 70px;
+    }
+}
+
+@media (max-width: 1197px) {
+
+    :where(.css-dev-only-do-not-override-1kuana8).ant-menu-light.ant-menu-submenu-popup>.ant-menu,
+    :where(.css-dev-only-do-not-override-1kuana8).ant-menu-light>.ant-menu.ant-menu-submenu-popup>.ant-menu {
+        width: 210px;
+        /* Even smaller on phones */
+        font-size: 7px;
+        margin-left: 70px;
+    }
+}
+
+@media (max-width: 1275px) {
+
+    :where(.css-dev-only-do-not-override-1kuana8).ant-menu-light.ant-menu-submenu-popup>.ant-menu,
+    :where(.css-dev-only-do-not-override-1kuana8).ant-menu-light>.ant-menu.ant-menu-submenu-popup>.ant-menu {
+        width: 120px;
+        /* Even smaller on phones */
+        font-size: 7px;
+        margin-left: 70px;
+    }
+}

@@ -1,0 +1,9 @@
+.line::before {
+    content: "";
+    margin-right: 10px; 
+}
+
+.line::after {
+    content: "";
+    margin-left: 10px; 
+}
